@@ -20,6 +20,7 @@ int main() {
          scanf("%lf", &num2);
 
          switch(operator) {
+            //  add operator
             case '+':
                result = num1 + num2;
                printf("%.2lf + %.2lf = %.2lf", num1, num2, result);
